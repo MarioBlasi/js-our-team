@@ -1,0 +1,10 @@
+.container {
+  background-image: url(/assets/img/sfondo.jpg);
+  height: 800px;
+  border: 3px solid grey;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.row {
+  align-items: center;
+}

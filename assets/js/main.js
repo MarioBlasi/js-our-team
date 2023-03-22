@@ -21,32 +21,32 @@ Organizzare i singoli membri in card/schede*/
 const team = [
   {
     nome: "Angela Caroll",
-    ruolo: "chief",
+    ruolo: "Chief Editor",
     foto: "/assets/img/angela-caroll-chief-editor.jpg",
   },
   {
     nome: "Angela Lopez",
-    ruolo: "social media manager",
+    ruolo: "Social Media Manager",
     foto: "/assets/img/angela-lopez-social-media-manager.jpg",
   },
   {
     nome: "Barbara Ramos",
-    ruolo: "graphic designer",
+    ruolo: "Graphic Designer",
     foto: "/assets/img/barbara-ramos-graphic-designer.jpg",
   },
   {
     nome: "Scott Estrada",
-    ruolo: "developer",
+    ruolo: "Developer",
     foto: "/assets/img/scott-estrada-developer.jpg",
   },
   {
     nome: "Walter Gordon",
-    ruolo: "office manager",
+    ruolo: "Office Manager",
     foto: "/assets/img/walter-gordon-office-manager.jpg",
   },
   {
     nome: "Wayne Barnett",
-    ruolo: "founder & ceo",
+    ruolo: "Founder & CEO",
     foto: "/assets/img/wayne-barnett-founder-ceo.jpg",
   },
 ];
