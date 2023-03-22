@@ -22,33 +22,58 @@ const team = [
   {
     nome: "Angela Caroll",
     ruolo: "chief",
-    foto: "",
+    img: "",
   },
   {
     nome: "Angela Lopez",
     ruolo: "social media manager",
-    foto: "",
+    img: "",
   },
   {
     nome: "Barbara Ramos",
     ruolo: "graphic designer",
-    foto: "",
+    img: "",
   },
   {
     nome: "Scott Estrada",
     ruolo: "developer",
-    foto: "",
+    img: "",
   },
   {
     nome: "Walter Gordon",
     ruolo: "office manager",
-    foto: "",
+    img: "",
   },
   {
     nome: "Wayne Barnett",
-    ruolo: "founder ceo",
-    foto: "",
+    ruolo: "founder & ceo",
+    img: "",
   },
 ];
 
+const rowEl = document.querySelector(".row");
 console.log(team);
+
+/*MILESTONE 1:
+Stampare su console, per ogni membro del team, le informazioni di nome, 
+ruolo e la stringa della foto*/
+
+for (let i = 0; i < team.length; i++) {
+  const thisteam = team[i];
+  console.log(thisteam);
+  const markup = `
+  <div class="col">
+        <div class="card">
+            <img src="${thisteam.img}" alt="" class="card-img-top">
+            <div class="card-body">
+                <h3>
+                    ${thisteam.nome} 
+                </h3>
+                <p>
+                    ${thisteam.ruolo}
+                </p>
+            </div>
+        </div>
+   </div>`;
+  rowEl.innerHTML += markup;
+}
