@@ -58,8 +58,20 @@ console.log(team);
 Stampare su console, per ogni membro del team, le informazioni di nome, 
 ruolo e la stringa della foto*/
 
+// team.forEach((member) => {
+//   console.log(
+//     `Nome: ${member.name}, Ruolo: ${member.role}, Foto: ${member.photo}`
+//   );
+// });
+
 /*MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe*/
+
+/*BONUS 1:
+Trasformare la stringa foto in una immagine effettiva*/
+
+/*BONUS 2:
+Organizzare i singoli membri in card/schede*/
 
 for (let i = 0; i < team.length; i++) {
   const thisteam = team[i];
@@ -69,12 +81,8 @@ for (let i = 0; i < team.length; i++) {
         <div class="card">
             <img src="${thisteam.foto}" alt="" class="card-img-top">
             <div class="card-body">
-                <h3>
-                    ${thisteam.nome} 
-                </h3>
-                <p>
-                    ${thisteam.ruolo}
-                </p>
+                <h3>${thisteam.nome}</h3>
+                <p>${thisteam.ruolo}</p>  
             </div>
         </div>
    </div>`;

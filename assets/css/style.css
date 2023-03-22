@@ -12,3 +12,7 @@
 .row {
   align-items: center;
 }
+.container:hover {
+  transition: 2s;
+  border-radius: 20%;
+}
