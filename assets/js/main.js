@@ -22,32 +22,32 @@ const team = [
   {
     nome: "Angela Caroll",
     ruolo: "chief",
-    img: "",
+    foto: "/assets/img/angela-caroll-chief-editor.jpg",
   },
   {
     nome: "Angela Lopez",
     ruolo: "social media manager",
-    img: "",
+    foto: "/assets/img/angela-lopez-social-media-manager.jpg",
   },
   {
     nome: "Barbara Ramos",
     ruolo: "graphic designer",
-    img: "",
+    foto: "/assets/img/barbara-ramos-graphic-designer.jpg",
   },
   {
     nome: "Scott Estrada",
     ruolo: "developer",
-    img: "",
+    foto: "/assets/img/scott-estrada-developer.jpg",
   },
   {
     nome: "Walter Gordon",
     ruolo: "office manager",
-    img: "",
+    foto: "/assets/img/walter-gordon-office-manager.jpg",
   },
   {
     nome: "Wayne Barnett",
     ruolo: "founder & ceo",
-    img: "",
+    foto: "/assets/img/wayne-barnett-founder-ceo.jpg",
   },
 ];
 
@@ -58,13 +58,16 @@ console.log(team);
 Stampare su console, per ogni membro del team, le informazioni di nome, 
 ruolo e la stringa della foto*/
 
+/*MILESTONE 2:
+Stampare le stesse informazioni su DOM sottoforma di stringhe*/
+
 for (let i = 0; i < team.length; i++) {
   const thisteam = team[i];
   console.log(thisteam);
   const markup = `
   <div class="col">
         <div class="card">
-            <img src="${thisteam.img}" alt="" class="card-img-top">
+            <img src="${thisteam.foto}" alt="" class="card-img-top">
             <div class="card-body">
                 <h3>
                     ${thisteam.nome} 
