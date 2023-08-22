@@ -22,7 +22,7 @@ const team = [
   {
     nome: "Angela Caroll",
     ruolo: "Chief Editor",
-    foto: "../assets/img/angela-caroll-chief-editor.jpg"
+    foto: "/assets/img/angela-caroll-chief-editor.jpg"
   },
   {
     nome: "Angela Lopez",
