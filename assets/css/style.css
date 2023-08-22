@@ -9,10 +9,10 @@
     red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   background-image: url(/assets/img/aut.jpg);
 }
-.row {
-  align-items: center;
-}
 .container:hover {
   transition: 2s;
   border-radius: 20%;
+}
+.row {
+  align-items: center;
 }
